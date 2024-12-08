@@ -1,0 +1,53 @@
+#wraper{
+    height:100vh;
+    width:95%;
+   
+}
+
+#musicBox{
+    position: relative;
+    top:15%;
+    border:solid 1px black;
+    width:50%;
+    height:70%;
+}
+
+#musicField{
+  
+    height: 50%;
+    position: inherit;
+
+}
+
+#trash{
+    position: inherit;
+    height: 25%;
+    width:20%;
+    margin:0%;
+    overflow: hidden;
+    
+  
+}
+
+#trash img:first-child{
+    width:70%;
+    position:inherit;
+}
+
+#trash img:nth-child(2){
+    position: absolute;
+    top:-10%;
+    left:0%;
+    width: 99%;
+    visibility: hidden;
+
+}
+
+
+
+.highlight {
+    border:solid 3px red;
+    height:50%;
+    width:50%;
+    
+}
